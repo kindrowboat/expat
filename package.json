@@ -1,0 +1,16 @@
+{
+  "name": "expat",
+  "version": "0.1.0",
+  "description": "extract, transoform, load, and synthesize data for expat",
+  "main": "index.js",
+  "repository": "git@github.com:motevets/expat.git",
+  "author": "Tom Dunlap",
+  "license": "GNU GPL3",
+  "private": true,
+  "dependencies": {
+    "clone": "^2.1.1",
+    "glob": "^7.1.2",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {}
+}
