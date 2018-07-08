@@ -9,7 +9,7 @@ function runMigrationFromTerminal(migration) {
   const db = DB.read();
   const newDb = migration(db);
   if(argv.print) {
-    console.log(newDb); //eslint-disable-line no-console
+    console.log(JSON.stringify(newDb, null, 2)); //eslint-disable-line no-console
   }
   if(argv.overwrite) {
     DB.write(newDb);
